@@ -28,8 +28,8 @@ activityLog(sprintf(
     <fieldset>
         <legend>Dashboard</legend>
         <ul>
-            <li><a href="/environ">Backend Environ asdasd</a></li>
-            <li><a href="/logs">Container Logs asdasd</a></li>
+            <li><a href="/environ">Backend Environ asdasd brbrbrbrbrbrbrb</a></li>
+            <li><a href="/logs">Container Logs asdasd brbrbrbrbrbrbrb</a></li>
         </ul>
     </fieldset>
 </body>
