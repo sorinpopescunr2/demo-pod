@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  nginx:
+    hostname: nginx
+    depends_on:
+      - backend
+      - frontend
+      - monitor
+    links:
+      - frontend
+    build:
+      context: ./nginx
+    volumes:
+      - static_content:/var/www/html
+    ports:
+      - 9002:80
+
+  backend:
+    hostname: backend
+    build:
+      context: ./backend
+    volumes:
+      - php_sessions:/tmp/php/sessions:rw
+      - backend_logs:/var/log/backend
+    restart: always
+
+  frontend:
+    hostname: frontend
+    build:
+      context: ./frontend
+    volumes:
+      - static_content:/opt/frontend
+
+  monitor:
+    hostname: monitor
+    build:
+      context: ./monitor
+    links:
+      - backend
+    volumes:
+      - backend_logs:/opt/logs/backend
+
+volumes:
+  php_sessions:
+  static_content:
+  backend_logs:
