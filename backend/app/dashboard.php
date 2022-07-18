@@ -28,7 +28,7 @@ activityLog(sprintf(
     <fieldset>
         <legend>Dashboard</legend>
         <ul>
-            <li><a href="/environ">Backend Environ prrprprr</a></li>
+            <li><a href="/environ">Backend Environ mon18jul</a></li>
             <li><a href="/logs">Container Logs clone 3 pr</a></li>
         </ul>
     </fieldset>
