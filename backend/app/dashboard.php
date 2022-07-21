@@ -29,7 +29,7 @@ activityLog(sprintf(
         <legend>Dashboard</legend>
         <ul>
             <li><a href="/environ">Backend Environ 21 ggl iulie 2022</a></li>
-            <li><a href="/logs">Container Logs clone 3 pr</a></li>
+            <li><a href="/logs">Container Logs clone 3 pr GGL</a></li>
         </ul>
     </fieldset>
 </body>
