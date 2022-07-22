@@ -28,8 +28,8 @@ activityLog(sprintf(
     <fieldset>
         <legend>Dashboard</legend>
         <ul>
-            <li><a href="/environ">Backend Environ 2022-07-21</a></li>
-            <li><a href="/logs">Container Logs 2022-07-21</a></li>
+            <li><a href="/environ">Backend Environ 2022-07-22</a></li>
+            <li><a href="/logs">Container Logs 2022-07-22</a></li>
         </ul>
     </fieldset>
 </body>
