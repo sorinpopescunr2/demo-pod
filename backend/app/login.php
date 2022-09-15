@@ -33,7 +33,7 @@ if ($name) {
 <body>
 <form method="post">
     <fieldset>
-        <legend>Username TESTESTESTESADADAWQWEQ</legend>
+        <legend>Username TEST</legend>
         <input name="name" type="text" />
     </fieldset>
 
